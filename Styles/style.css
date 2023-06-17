@@ -1,0 +1,33 @@
+
+
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+        /* чтобы не выделять объекты */
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;   
+        -khtml-user-select: none;   
+        -moz-user-select: none;    
+        -ms-user-select: none;       
+        user-select: none; 
+}
+
+:root {
+    --dark-blue: #274C5B;
+    --light-green: #EFF6F1;
+    --green: #7EB693;
+    --yellow: #EFD372;
+    --white: #FFFFFF;
+
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    border: solid 1px transparent;
+}
