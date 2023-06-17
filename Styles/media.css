@@ -1,0 +1,232 @@
+
+@media screen and (max-width: 1400px) {
+    .block-cards__container .card {
+        max-width: 600px;
+    }
+
+    .block-cards__container {
+        max-width: 1280px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1330px) {
+
+    .block-cards__container .card {
+        max-width: 565px;
+    }
+
+    .block-cards__container {
+        max-width: 1180px;
+        margin: 100px auto;
+    }
+
+    .card__text {
+        margin: 70px auto 75px 55px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .block-cards__container .card {
+        max-width: 500px;
+    }
+
+    .block-cards__container {
+        max-width: 1050px;
+    }
+
+    .card__text {
+        margin: 60px auto 55px 55px;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .header__block-info {
+        gap: 50px;
+    }
+
+    .block-cards__container .card {
+        max-width: 450px;
+    }
+
+    .block-cards__container {
+        margin: 75px auto;
+        max-width: 950px;
+    }
+
+    .card__text {
+        margin: 40px auto 45px 35px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .block-cards__container .card {
+        max-width: 665px;
+    }
+
+    .block-cards__container {
+        max-width: 665px;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .card__text {
+        margin: 105px auto 105px 55px;
+
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .block-welcome__container {
+        margin: 100px auto 130px 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .block-welcome .container {
+        background-position: -100px 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .block-welcome .container {
+        background-position: -200px -50px;
+    }
+
+    h1.title {
+        font-size: 50px;
+        line-height: 54px;
+    
+        margin: 14px auto 30px;
+    }
+
+    .block-welcome__container {
+        max-width: 396px;
+   
+    }
+
+    .block-cards__container {
+        max-width: 600px;
+    }
+
+    
+    .block-cards__container .card {
+        max-width: 600px;
+    }
+
+    .card__text {
+        margin: 75px auto 105px 55px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .block-cards__container {
+        max-width: 490px;
+    }
+
+    
+    .block-cards__container .card {
+        max-width: 490px;
+    }
+
+    .card__text {
+        margin: 55px auto 55px 35px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .block-cards__container {
+        max-width: 390px;
+        margin: 50px auto;
+
+    }
+    
+    .block-cards__container .card {
+        max-width: 390px;
+    }
+
+    .card__text {
+        margin: 25px auto 30px 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    .block-welcome__container {
+        margin: 50px auto 70px 30px;
+        max-width: 296px;
+
+    }
+
+    h1.title {
+        font-size: 50px;
+        line-height: 54px;
+    
+        margin: 14px auto 30px;
+    }
+
+    .button p {
+        line-height: 60px;
+    }
+
+    .button_arrow {
+        margin-top: 11px;
+    }
+
+    .block-cards__container {
+        max-width: 350px;
+    }
+
+    
+    .block-cards__container .card {
+        max-width: 350px;
+    }
+
+    .card__text {
+        max-width: 199px;
+        margin: 50px auto 55px 25px;
+    }
+
+    .pre-title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    h3.title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .block-welcome__container {
+        max-width: 280px;
+
+    }
+
+    .block-cards__container {
+        max-width: 310px;
+    }
+
+    
+    .block-cards__container .card {
+        max-width: 310px;
+    }
+
+    .card__text {
+        max-width: 199px;
+        margin: 30px auto 40px 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .block-cards__container {
+        margin: 30px auto;
+    }
+
+    .block-cards__container {
+        gap: 20px;
+    }
+}
