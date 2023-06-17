@@ -1,33 +1,228 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 
 :root {
-
 }
 
 * {
     margin: 0;
     padding: 0;
 
-        /* чтобы не выделять объекты */
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;   
-        -khtml-user-select: none;   
-        -moz-user-select: none;    
-        -ms-user-select: none;       
-        user-select: none; 
+    /* чтобы не выделять объекты */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 :root {
-    --dark-blue: #274C5B;
-    --light-green: #EFF6F1;
-    --green: #7EB693;
-    --yellow: #EFD372;
-    --white: #FFFFFF;
+    --dark-blue: #274c5b;
+    --light-green: #eff6f1;
+    --green: #7eb693;
+    --yellow: #efd372;
+    --white: #ffffff;
+}
 
+body {
+    font-family: "Roboto";
+    font-style: normal;
 }
 
 .container {
     max-width: 1440px;
     width: 100%;
     border: solid 1px transparent;
+    margin: 0 auto;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
+header .container {
+    max-width: 1380px;
+    width: 100%;
+    display: flex;
+    padding: 40px 30px;
+    justify-content: space-between;
+    min-height: 70px;
+}
+
+.header__block-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 865px;
+    width: 100%;
+}
+
+.header__block-info img {
+    max-width: 200px;
+    width: 100%;
+}
+
+.header-nav {
+    max-width: 525px;
+    width: 100%;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 70px;
+    letter-spacing: 0.36px;
+}
+
+.block-backet {
+    display: flex;
+    max-width: 159px;
+    width: 100%;
+    border: 1px solid #d4d4d4;
+    border-radius: 33px;
+}
+
+.block-backet a {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 70px;
+    letter-spacing: 0.36px;
+}
+
+.block-backet__img {
+    width: 56px;
+    height: 56px;
+    background: var(--dark-blue);
+    border-radius: 100px;
+    margin: 7px 10px;
+}
+
+.block-backet__img img {
+    margin: 16px 15px;
+}
+
+.block-welcome .container {
+    background-image: url(../Images/png/background__block_welcome.png);
+    background-repeat: no-repeat;
+}
+
+.block-welcome__container {
+    margin: 220px auto 250px 30px;
+    max-width: 496px;
+    width: 100%;
+}
+
+.pre-title {
+    font-family: "Yellowtail";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+
+    color: var(--green);
+}
+
+h1.title {
+
+    font-weight: 700;
+font-size: 70px;
+line-height: 84px;
+letter-spacing: 0.36px;
+color: var(--dark-blue);
+
+margin: 14px auto 30px;
+
+}
+
+.block-welcome__button {
+    max-width: 219px;
+    width: 100%;
+    background: var(--yellow);
+    border-radius: 16px;
+    border: 0;
+display: flex;
+}
+
+.block-welcome__button p {
+    font-weight: 400;
+font-size: 19px;
+line-height: 82px;
+letter-spacing: 0.36px;
+text-transform: capitalize;
+color: var(--dark-blue);
+margin: 0 24px 0 33px;
+}
+
+.block-welcome__button_arrow {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: var(--dark-blue);
+    margin-top: 22px;
+
+}
+
+.block-welcome__button_arrow img {
+    width: 15px;
+    height: 11px;
+    margin: 13px 11.5px;
+}
+
+.block-cards__container {
+    max-width: 1380px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 140px auto;
+}
+
+.block-cards__container .card {
+    max-width: 665px;
+    width: 100%;
+}
+
+h3.title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;    
+    letter-spacing: 0.36px;
+    color: var(--dark-blue);
+}
+
+.card-fruits {
+    background-image: url(../Images/png/background__block-2_fruits.png);
+}
+
+.card {
+    background-repeat: no-repeat;
+}
+
+.card-fruits p, .card-fruits h3 {
+    color: var(--white);
+
+}
+
+.card-vegetables {
+    background-image: url(../Images/png/background__block-2_vegetables.png);
+}
+
+.card__text {
+    max-width: 264px;
+    width: 100%;
+    margin: 105px auto 105px 55px;
+}
+
+
+
+
+

@@ -1,41 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organick</title>
+    <link rel="stylesheet" href="./Styles/style.css">
 </head>
+
 <body>
     <header>
         <div class="container">
-            <div class="block-logotype">
+            <div class="header__block-info">
                 <img src="./Images/svg/logotype.svg" alt="logotype">
-                <h2>Organick</h2>
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="#">Home</a> </li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="header-nav">
-                <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Shop</li>
-                    <li>Pages</li>
-                    <li>Contact Us</li>
-                </ul>
-            </nav>
             <div class="block-backet">
-                <img src="./Images/svg/basket.svg" alt="backet">
-                <p>Cart 0</p>
+                <div class="block-backet__img">
+                    <img src="./Images/svg/basket.svg" alt="backet">
+                </div>
+                <a href="#">Cart 0</a>
             </div>
         </div>
     </header>
     <main>
-        <div class="container">
-            
-        </div>
+        <section class="block-welcome">
+            <div class="container">
+                <div class="block-welcome__container">
+                    <p class="pre-title">Made with nature</p>
+                    <h1 class="title">Welcome to the world of nature and organic.</h1>
+                    <button class="block-welcome__button">
+                        <p>Explore Now</p>
+                        <div class="block-welcome__button_arrow">
+                            <img src="./Images/svg/arrow-right.svg" alt="arrow-right">
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="block-cards">
+            <div class="container">
+                <div class="block-cards__container">
+                    <div class="card-fruits card">
+                        <div class="card__text">
+                            <p class="pre-title">
+                                Natural!!
+                            </p>
+                            <h3 class="title">
+                                Get Garden Fresh Fruits
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="card-vegetables card">
+                        <div class="card__text">
+                            <p class="pre-title">
+                                Offer!!
+                            </p>
+                            <h3 class="title">
+                                Get 10% off on Vegetables
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="container">
-            
+
         </div>
     </footer>
 </body>
+
 </html>
