@@ -16,7 +16,13 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
+    
 }
+
+::-webkit-scrollbar {
+    width: 0;
+  }
 
 :root {
     --dark-blue: #274c5b;
@@ -252,8 +258,9 @@ h3.title {
 .container-organick {
     max-width: 1380px;
     width: 100%;
-    margin: 135px 30px;
+    margin: 135px auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .container-organick__content .title {
@@ -346,7 +353,6 @@ h3.title {
     width: 100%;
     max-height: 642px;
     height: 100%;
-    margin-right: 30px;
     margin-top: 60px;
 }
 
@@ -452,6 +458,7 @@ h3.title {
 .block-customer .container {
     background-image: url(../Images/png/background__block-5_citrus.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container-customer {
