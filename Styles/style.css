@@ -34,12 +34,13 @@
     --light-gray: #f9f8f8;
     --second-gray: #d4d4d4;
     --gray-text: #525c60;
-    
 }
 
 body {
     font-family: "Roboto";
     font-style: normal;
+    overflow-x: hidden;
+
 }
 
 section {
@@ -67,41 +68,129 @@ a {
 header .container {
     max-width: 1440px;
     width: 100%;
+}
 
+input[type=checkbox] {
+    display: none;
+}
+
+.block-nav {
+    margin-top: 14px;
+    width: 54px;
+    height: 45px;
+    background: var(--arrow-blue);
+    border-radius: 5px;
+    display: none;
+    transition: .8s;
+}
+
+.block-nav-bar {
+    height: 45px;
+    border-radius: 5px;
+    cursor: var(--pointer), pointer;
+    transition: .5s ease-in;
+}
+
+.bar {
+    display: block;
+    background: var(--light-green);
+    width: 40px;
+    height: 5px;
+    position: relative;
+    left: 7px;
+    top: 10px;
+    transition: .5s ease-in;
+}
+
+.block-nav-bar:hover .bar {
+    background: var(--yellow);
+}
+
+.middle {
+    opacity: 1;
+}
+
+.bottom, .top {
+    transform: rotate(0deg);
+}
+
+.block-backet:hover {
+    background: var(--yellow);
+}
+
+input[type=checkbox]:checked ~ ul {
+    opacity: 1;
+    background: var(--dark-blue);
+    height: fit-content;
+    right: 0;
+    /* margin-top: 7.5px;
+    padding-left: 10px; */
+}
+
+input[type=checkbox]:checked ~ .block-backet{
+    opacity: 1;
+    right: 100px;
+}
+
+input[type=checkbox]:checked ~ .block-nav .middle{
+    opacity: 0;
+}
+
+input[type=checkbox]:checked ~ .block-nav .top {
+    transform: rotate(45deg);
+    top: 20px;
+}
+
+input[type=checkbox]:checked ~ .block-nav .bottom {
+    transform: rotate(-45deg) ;
+    top: 0px;
+}
+
+input[type=checkbox]:checked ~ .block-nav {
+    background: var(--dark-blue);
+    /* position: fixed; */
+    /* border-radius: 0px; */
+    /* margin-bottom: 40px;
+    height: 100px; */
 }
 
 .header-blocks {
     display: flex;
-    justify-content: space-between;
+    gap: 120px;
     min-height: 70px;
     margin: 40px 30px;
 }
 
-.header__block-info {
+.block-logotype {
     display: flex;
-    gap: 140px;
-    max-width: 865px;
-    width: 100%;
+    gap: 10px;
 }
 
-.header__block-info img {
-    max-width: 200px;
-    width: 100%;
+.block-logotype h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 72px;
+    letter-spacing: 0.36px;
+    color: var(--dark-blue);
 }
 
 .header-nav {
-    max-width: 525px;
+    max-width: 1060px;;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-nav ul {
     display: flex;
+    gap: 40px;
     justify-content: space-between;
-
     font-weight: 400;
     font-size: 19px;
     line-height: 70px;
     letter-spacing: 0.36px;
+    /* margin: 0 356px 0 120px; */
+
 }
 
 .block-backet {

@@ -12,6 +12,9 @@
     --start-width-card-pc_375: -105%;
     --start-width-card-pc_320: -105%;
 
+    --dark-blue: #274c5b;
+    --yellow: #efd372;
+    --white: #ffffff;
 }
 
 @media screen and (max-width: 1410px) {
@@ -173,13 +176,16 @@
 }
 
 @media screen and (max-width: 1152px) {
-    .header__block-info {
-        gap: 50px;
-    }
 
     .block-cards__container .card {
         max-width: 450px;
     }
+
+    .header-blocks {
+        display: flex;
+        gap: 60px;
+    }
+
 
     .block-cards__container {
         margin: 75px auto;
@@ -391,8 +397,69 @@
     .type button {
         max-width: 270px;
         margin: 200px auto;
-        transform: rotate(-90deg);
+        transform: rotate(-90deg);   
     }
+
+    .block-nav {
+        display:block;
+        /* order: 2; */
+    }
+
+    .block-nav-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .header-blocks {
+        justify-content: left;
+    }
+
+    .header-nav {
+        /* position: absolute;
+        left: 930px; */
+        order: 3;
+        margin: 0;
+        max-width: 55px;
+    }
+
+    .block-nav {
+        position:relative;
+        z-index: 999;
+    }
+
+    .header-nav ul {
+        position: absolute;
+        flex-direction: column;
+        justify-content:unset;
+        opacity: 0;
+        background: var(--yellow);
+        width: 250px;
+        top: 0;
+        right: -280px;
+        transition: all .5s ease-in;
+        padding: 140px 0 30px 30px;
+        border-radius: 0 0 0 30px;
+        line-height: 30px;
+    }
+
+    .block-backet {
+        opacity: 0;
+        position: absolute;
+        top: 40px;
+        right: -160px;
+        transition: all .5s ease-in;
+    }
+
+    li a, .block-backet a {
+        color: var(--white);
+    }
+
+    .header-blocks {
+        gap: 0;
+        justify-content: space-between;
+    }
+
 }
 
 @media screen and (max-width: 930px) {
@@ -458,8 +525,12 @@
     .container-customer, .container-offer, .container-organick, 
     .block-cards__container, .block-cards__container .card,
     .block-welcome__container, .block-subscription .container,
-    .container-footer {
+    .container-footer{
         max-width: 640px;
+    }
+
+    header .container {
+        max-width: 700px;
     }
 
     .container-footer {
@@ -564,6 +635,10 @@
         max-width: 600px;
     }
 
+    header .container {
+        max-width: 660px;
+    }
+
     .container-farm {
         max-width: 520px;
     }
@@ -601,7 +676,7 @@
     .type button {
         max-width: 280px;
         margin: 40px auto;
-        transform: rotate(0deg);
+        transform: none;
     }
 }
 
@@ -611,6 +686,10 @@
     .block-welcome__container, .blocks-statistics,
     .block-subscription .container, .container-footer {
         max-width: 490px;
+    }
+
+    header .container {
+        max-width: 550px;
     }
 
     .container-offer .card-product {
@@ -695,6 +774,10 @@
     .block-welcome__container, .blocks-statistics,
     .block-subscription .container, .container-footer {
         max-width: 390px;
+    }
+
+    header .container {
+        max-width: 450px;
     }
 
     .container-footer {
@@ -802,6 +885,9 @@
         max-width: 330px;
     }
 
+    header .container {
+        max-width: 390px;
+    }
 
     .container-farm {
         max-width: 290px;
@@ -909,6 +995,14 @@
     .block-welcome__container, .blocks-statistics,
     .block-subscription .container, .container-footer {
         max-width: 300px;
+    }
+
+    .header-blocks {
+        margin: 30px 10px;
+    }
+
+    header .container {
+        max-width: 320px;
     }
 
     .container-offer .card-product {
