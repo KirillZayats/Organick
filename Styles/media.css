@@ -451,7 +451,7 @@
         transition: all .5s ease-in;
     }
 
-    li a, .block-backet a {
+    .header-nav a {
         color: var(--white);
     }
 
