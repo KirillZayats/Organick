@@ -23,6 +23,9 @@
         max-width: 1280px;
     }
 
+    .container-type {
+        height: 540px;
+    }
 
     .container-organick > img {
         max-width: 600px;
@@ -43,10 +46,6 @@
 
     .container-type div {
         max-width: 430px;
-    }
-
-    .type button {
-        margin: 230px auto;
     }
 }
 
@@ -72,6 +71,10 @@
 
     .block-cards__container .card {
         max-width: 565px;
+    }
+
+    .container-type {
+        height: 500px;
     }
 
     .block-cards__container {
@@ -112,15 +115,17 @@
         max-width: 400px;
     }
 
-    .type button {
-        margin: 210px auto;
-    }
 }
 
 @media screen and (max-width: 1280px) {
     .block-cards__container .card {
         max-width: 500px;
     }
+
+    .container-type {
+        height: 460px;
+    }
+
 
     .block-cards__container, .container-organick, 
     .container-customer, .container-offer, .block-subscription .container,
@@ -166,10 +171,6 @@
         max-width: 370px;
     }
 
-    .type button {
-        margin: 190px auto;
-    }
-
     .container-type {
         margin: 40px auto;
     }
@@ -179,6 +180,11 @@
 
     .block-cards__container .card {
         max-width: 450px;
+    }
+
+    
+    .container-type {
+        height: 400px;
     }
 
     .header-blocks {
@@ -246,7 +252,6 @@
 
     .type button {
         max-width: 270px;
-        margin: 170px auto;
     }
 }
 
@@ -257,6 +262,10 @@
     .block-subscription .container, .container-footer
      {
         max-width: 800px;
+    }
+
+    .container-type {
+        height: 400px;
     }
 
     .block-socials-links {
@@ -394,12 +403,6 @@
         max-width: 33.3%;
     }
 
-    .type button {
-        max-width: 270px;
-        margin: 200px auto;
-        transform: rotate(-90deg);   
-    }
-
     .block-nav {
         display:block;
         position: relative;
@@ -440,16 +443,16 @@
         top: -480px;
         right: 0px;
         transition: all .5s ease-in;
-        padding: 60px 90px 130px 30px;
+        padding: 60px 90px 140px 30px;
         border-radius: 0 0 0 30px;
-        line-height: 40px;
-        gap: 30px;
+        line-height: 50px;
+        gap: 20px;
     }
 
     .block-backet {
         opacity: 0;
         position: absolute;
-        top: 400px;
+        top: 420px;
         right: 0px;
         transition: all .5s ease-in;
     }
@@ -474,6 +477,10 @@
     .block-cards__container, .block-cards__container .card,
     .block-subscription .container, .container-footer{
         max-width: 770px;
+    }
+
+    .type button {
+        max-width: 210px;
     }
 
     .block-socials-links {
@@ -517,6 +524,10 @@
 @media screen and (max-width: 800px) {
     .block-welcome .container {
         background-position: -100px 0;
+    }
+
+    .container-type {
+        height: 350px;
     }
 
     .block-welcome__container h1 {
@@ -624,12 +635,25 @@
         animation: scrollNotepad_768 10s ease-in infinite;
     }
 
+    .container-type {
+        height: 300px;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
 
     .block-welcome .container {
         background-position: -200px -50px;
+    }
+
+    .container-type {
+        height: 520px;
+    }
+
+    .type button {
+        max-width: 280px;
+        margin: 40px auto;
     }
 
     .container-customer, .container-offer, .container-organick, 
@@ -672,14 +696,7 @@
 
     .container-type > div {
         max-width: 100%;
-        background-size: cover;
         background-position: center;
-    }
-
-    .type button {
-        max-width: 280px;
-        margin: 40px auto;
-        transform: none;
     }
 }
 
@@ -878,6 +895,16 @@
     .block-welcome__container, .blocks-statistics,
      .block-subscription .container, .container-footer {
         max-width: 330px;
+    }
+
+    .container-type {
+        height: 420px;
+    }
+
+    .type button {
+        height: 60px;
+        width: 270px;
+        border-radius: 15px;
     }
 
     header .container {
