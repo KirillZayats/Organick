@@ -169,6 +169,10 @@ input[type=checkbox]:checked ~ .block-nav {
     gap: 10px;
 }
 
+.block-socials-links .block-logotype {
+    justify-content: center;
+}
+
 .block-logotype h2{
     font-weight: 700;
     font-size: 40px;
