@@ -402,6 +402,8 @@
 
     .block-nav {
         display:block;
+        position: relative;
+
         /* order: 2; */
     }
 
@@ -434,20 +436,21 @@
         justify-content:unset;
         opacity: 0;
         background: var(--yellow);
-        width: 250px;
-        top: 0;
-        right: -280px;
+        width: 160px;
+        top: -480px;
+        right: 0px;
         transition: all .5s ease-in;
-        padding: 140px 0 30px 30px;
+        padding: 60px 90px 130px 30px;
         border-radius: 0 0 0 30px;
-        line-height: 30px;
+        line-height: 40px;
+        gap: 30px;
     }
 
     .block-backet {
         opacity: 0;
         position: absolute;
-        top: 40px;
-        right: -160px;
+        top: 400px;
+        right: 0px;
         transition: all .5s ease-in;
     }
 
@@ -532,7 +535,6 @@
     header .container {
         max-width: 700px;
     }
-
     .container-footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -621,6 +623,7 @@
     .container-products .card-products .card-product {
         animation: scrollNotepad_768 10s ease-in infinite;
     }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -807,14 +810,6 @@
     .block-content {
         max-width: fit-content;
     }
-
-    .block-content ul {
-        /* display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 20px; */
-    }
-
 
     .container-subscription {
         padding: 0 30px;

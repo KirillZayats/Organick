@@ -122,6 +122,7 @@ input[type=checkbox]:checked ~ ul {
     opacity: 1;
     background: var(--dark-blue);
     height: fit-content;
+    top: 0;
     right: 0;
     /* margin-top: 7.5px;
     padding-left: 10px; */
@@ -148,6 +149,8 @@ input[type=checkbox]:checked ~ .block-nav .bottom {
 
 input[type=checkbox]:checked ~ .block-nav {
     background: var(--dark-blue);
+    position: absolute;
+    transition: .5s ease-in;
     /* position: fixed; */
     /* border-radius: 0px; */
     /* margin-bottom: 40px;
