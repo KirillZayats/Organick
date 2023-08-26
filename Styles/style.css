@@ -815,6 +815,7 @@ h3.title {
 }
 
 .container-type {
+    height: 540px;
     margin: 140px auto;
     display: flex;
     justify-content: space-between;
